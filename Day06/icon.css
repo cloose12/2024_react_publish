@@ -1,0 +1,39 @@
+/* .ably {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+}
+
+.icon {
+  width: fit-content;
+  padding: 15px 30px 15px 30px;
+  
+
+}
+
+.icon > text {
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+} */
+
+.box{
+    display: flex;
+    flex-direction: row;
+    /* 자식들의 gap */
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: fit-content;
+    padding: 20px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon > i{
+    font-size: 30px;
+}
