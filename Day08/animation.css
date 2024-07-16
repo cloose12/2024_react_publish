@@ -1,0 +1,33 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  transition: all 1s;
+}
+
+.box:hover {
+  background-color: pink;
+  transform: rotate(30deg);
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 9999px;
+  background-color: powderblue;
+  animation: abc 2s infinite;
+}
+
+@keyframes abc {
+  0% {
+    background-color: powderblue;
+  }
+  50% {
+    background-color: blue;
+    transform: scale(1.5) translateX(300px) rotate(90deg);
+  }
+  100% {
+    background-color: yellow;
+    transform: scale(1) translateX(0px) rotate(0deg);
+  }
+}
